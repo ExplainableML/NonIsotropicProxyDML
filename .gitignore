@@ -1,0 +1,4 @@
+*.pyc
+__pycache__
+Training_Results
+wandb
