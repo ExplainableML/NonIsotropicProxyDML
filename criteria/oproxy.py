@@ -61,7 +61,7 @@ class Criterion(torch.nn.Module):
         return self.compute_proxyloss(batch)
 
     def compute_proxyloss(self, batch):
-        proxies = self.prep(self.proxies)
+        proxies = torch.nn.functional.normalize(self.proxies, dim=-1)
         pos_sims = batch.mm(proxies[self.u_labels].T)
         sims = batch.mm(proxies.T)
         w_pos_sims = -self.pars['pos_alpha'] * (pos_sims -
