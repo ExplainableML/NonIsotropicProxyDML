@@ -2,7 +2,6 @@ import contextlib
 import copy
 import os
 
-import clip
 import numpy as np
 import torch, torch.nn as nn, torch.nn.functional as F
 
