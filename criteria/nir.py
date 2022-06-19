@@ -37,8 +37,6 @@ class Criterion(torch.nn.Module):
 
         ####
         self.optim_dict_list = []
-        self.T = torch.Tensor([opt.language_temp])
-        self.T = self.T.to(opt.device)
 
         self.proxies = None
         self.num_proxies = opt.n_classes
