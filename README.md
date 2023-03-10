@@ -1,4 +1,4 @@
-# Non-isotropy Regularization for Proxy-based Deep Metric Learni
+# Non-isotropy Regularization for Proxy-based Deep Metric Learning
 #### ___Contact___: Karsten Roth (karsten.rh1@gmail.com)
 
 ---
@@ -162,6 +162,15 @@ online_products
 ## Citation
 If you use this code or parts of it for you work, please cite
 ```
-TBA
-
+@conference{RotVinAka22b,
+  title = {Non-isotropy Regularization for Proxy-based Deep Metric Learning},
+  author = {Roth, K. and Vinyals, O. and Akata, Z.},
+  booktitle = {Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)},
+  pages = {7420--7430},
+  month = jun,
+  year = {2022},
+  doi = {},
+  url = {https://openaccess.thecvf.com/content/CVPR2022/papers/Roth_Non-Isotropy_Regularization_for_Proxy-Based_Deep_Metric_Learning_CVPR_2022_paper.pdf},
+  month_numeric = {6}
+}
 ```
